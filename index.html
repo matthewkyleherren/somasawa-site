@@ -16,8 +16,7 @@
   <meta property="og:type" content="website" />
   <meta content="summary_large_image" name="twitter:card" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link href="assets/css/style.css"
-    rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   <style>
     @media (min-width:992px) {
       html.w-mod-js:not(.w-mod-ix) [data-w-id="c1a20463-62c9-2c6f-5cf8-a238265d53be"] {
@@ -78,11 +77,13 @@
         t + "touch")
     }(window, document);
   </script>
-  <link href="assets/imgs/618ceafdb79c35b679cedd43_favi.png" rel="shortcut icon"
-    type="image/x-icon" />
-  <link href="assets/imgs/618ceaffa367ad236f6a1bfd_favi256.png"
-    rel="apple-touch-icon" />
-
+  <link href="assets/imgs/618ceafdb79c35b679cedd43_favi.png" rel="shortcut icon" type="image/x-icon" />
+  <link href="assets/imgs/618ceaffa367ad236f6a1bfd_favi256.png" rel="apple-touch-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600&display=swap"
+    rel="stylesheet">
   <style>
     ::selection {
       background: #96c11f;
@@ -271,6 +272,9 @@
 </head>
 
 <body class="body">
+  <div class="c-noise">
+    <div class="c-noise_img" style="background-image: url('img/noise.png')"></div>
+  </div>
   <div data-w-id="e5ab1fdb-d7c7-70cc-675f-f9e92c78dab3"
     style="-webkit-transform:translate3d(-50%, 75px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50%, 75px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50%, 75px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50%, 75px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
     class="cookie">
@@ -309,14 +313,14 @@
     </div>
     <div class="topbar-line"></div>
   </div> -->
-  <div data-animation="over-left" data-collapse="all" data-duration="700" data-easing="ease-in-out-expo"
+  <!--   <div data-animation="over-left" data-collapse="all" data-duration="700" data-easing="ease-in-out-expo"
     data-easing2="ease-in-out-expo" role="banner" class="navbar w-nav">
     <div data-w-id="1751a239-86d4-4cf9-fa17-11ad8a8382c4" class="navtainer">
       <div data-w-id="e035faec-0918-ff2f-d2e3-6fa283cba1c7" class="nav-closer"></div>
       <div data-w-id="d5a51c2d-9937-b0de-11af-1edc03f68675" class="nav-bar">
         <div class="nav-bg-left"></div><a href="#home" class="brand w-nav-brand"><img loading="lazy"
-            src="assets/imgs/logofullsplash.svg"
-            alt="Logo" class="logo" style="rotate: 270deg;"/><img alt="Logo" loading="lazy"
+            src="assets/imgs/logofullsplashrotate.svg"
+            alt="Logo" class="logo"/><img alt="Logo" loading="lazy"
             src="assets/imgs/logomarkcolour.svg"
             class="logo-mobile" /></a>
         <div data-w-id="cc0c897b-c543-7486-39bd-135fdb9d92a2" class="hamburger-box">
@@ -377,6 +381,48 @@
         <div class="mobile-nav-spacer"></div>
       </div>
     </div>
+  </div> -->
+
+  <header id="header" class="c-header">
+    <div class="c-header_inner">
+      <div class="c-header_logo"><a href="./"><img loading="lazy" src="assets/imgs/logofullwhite.svg" alt="Logo" class="logo"></a></div>
+      <div class="c-header_nav">
+        <nav class="c-nav">
+          <ul class="c-nav_list">
+            <li class="c-nav_list_item"><a class="c-link" href="#roadmap-header" data-scroll-to="" data-scroll-offset="-61">Roadmap</a></li>
+            <li class="c-nav_list_item"><a class="c-link" href="#collection" data-scroll-to="" data-scroll-offset="-61">Collection</a>
+              <div class="c-link_badge">New</div>
+            </li>
+            <li class="c-nav_list_item"><a class="c-link" href="#crew-header" data-scroll-to="" data-scroll-offset="-61">Crew</a></li>
+            <li class="c-nav_list_item"><a class="c-link" href="https://discord.gg/hB8AWJJ7fY" target="_blank" rel="noopener">Discord</a>
+              
+              </li></ul></nav></div>
+            
+          
+        
+      </div>
+      
+    
+  </header>
+  <div class="c-menu-mobile">
+    <div class="c-menu-mobile_container">
+      <div class="c-menu-mobile_back"></div>
+      <div class="c-menu-mobile_inner">
+        <ul class="c-menu-mobile_list">
+          <li><a class="c-link" href="#roadmap-header">Roadmap</a></li>
+          <li><a class="c-link" href="#collection">Collection<span>New</span></a></li>
+          <li><a class="c-link" href="#crew">Crew</a></li>
+        </ul>
+        <ul class="c-menu-mobile_social">
+          <li><a class="c-link" href="https://www.instagram.com/hakajiofficial/" target="_blank"
+              rel="noopener">Instagram</a></li>
+          <li><a class="c-link" href="https://twitter.com/HakajiOfficial" target="_blank" rel="noopener">Twitter</a>
+          </li>
+          <li><a class="c-link" href="https://discord.gg/hB8AWJJ7fY" target="_blank" rel="noopener">Discord</a></li>
+        </ul><a href="#" target="_blank" rel="noopener" class="c-button -small -block" data-modal="modal-opensea">Mint
+          your NFT</a>
+      </div>
+    </div>
   </div>
   <section id="home" class="intro wf-section">
     <div class="sectionbar-stickytainer">
@@ -392,18 +438,17 @@
     </div>
     <div data-w-id="a64bc76b-5ddd-69f8-343e-435243d5da47" class="intro-bg">
       <div data-w-id="68d1420a-6261-3f08-a751-9f5eb3ac5552" class="intro-animation-trigger"></div><img
-        src="assets/imgs/618c102e46b929abf266827b_intro_2432_70p_ps3.jpg"
-        loading="lazy" alt="PhysioAsten &amp; Nnk" class="intro-bg-pic" /><img
-        src="assets/imgs/618c0ded8b30a11b109d508d_intro_m_2000_sp.jpg"
-        loading="lazy" alt="PhysioAsten &amp; Nnk" class="intro-bg-pic mobile" />
+        src="assets/imgs/herohomebg.jpg" loading="lazy" alt="PhysioAsten &amp; Nnk"
+        class="intro-bg-pic" /><img src="assets/imgs/618c0ded8b30a11b109d508d_intro_m_2000_sp.jpg" loading="lazy"
+        alt="PhysioAsten &amp; Nnk" class="intro-bg-pic mobile" />
       <div class="intro-bg-txt-box">
         <div class="intro-sub-heading-box">
-          <h1 class="intro-sub-heading">Osteopathie und Physiotherapie <br /></h1>
-          <h1 class="intro-sub-heading">bei physio asten &amp; nnk</h1>
+          <h1 class="intro-sub-heading">Karibuni Somasawa. <br /></h1>
+          
         </div>
         <div data-w-id="81c9ca7e-e493-1bfc-8e8e-8a2f2decde1c" class="intro-rt-box">
-          <h2 class="runningtxt1 intr">Ihre Gesundheit in guten Händen. </h2>
-          <h2 class="runningtxt2 intr">Ihre Gesundheit in guten Händen. </h2>
+          <h2 class="runningtxt1 intr">EDUCATION BUILDS BETTER LIVES. </h2>
+          <h2 class="runningtxt2 intr">EDUCATION BUILDS BETTER LIVES. </h2>
         </div>
       </div>
     </div>
@@ -421,12 +466,20 @@
               <div class="intro-sub-hl-box-inner">
                 <div class="intro-sub-nr">01.</div>
                 <div class="intro-sub-ball"></div>
-                <h2 class="intro-sub-hl2">Physio-<br />therapie</h2>
+                <h2 class="intro-sub-hl2">Teacher<br />Training</h2>
               </div>
             </div>
-            <p class="intro-sub-text2">Physiotherapie an sich beschäftigt sich im Wesentlichen mit der Vermeidung von
-              Bewegungs- und Funktionsstörungen des Körpers, dem Wiedererlangen von Bewegungsabläufen und der optimalen
-              Behandlung nach Verletzungen, Operationen und chronischen Schmerzzuständen.</p>
+            <p class="intro-sub-text2">Teachers are the backbone of any education system and the chanmpions of the students they teach. And yet they are often overlooked, under-resourced and insufficently trained. A fundamental goal of ours is to better equip them with the necessary skills and knowledge to teach the learners.</p>
+          </div>
+          <div class="intro-sub-text2-box">
+            <div class="intro-sub-hl-box">
+              <div class="intro-sub-hl-box-inner">
+                <div class="intro-sub-nr">01.</div>
+                <div class="intro-sub-ball"></div>
+                <h2 class="intro-sub-hl2">Teacher<br />Training</h2>
+              </div>
+            </div>
+            <p class="intro-sub-text2">Teachers are the backbone of any education system and the chanmpions of the students they teach. And yet they are often overlooked, under-resourced and insufficently trained. A fundamental goal of ours is to better equip them with the necessary skills and knowledge to teach the learners.</p>
           </div>
           <div class="intro-sub-text2-box rightone">
             <div class="intro-sub-hl-box">
@@ -442,6 +495,104 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <section id="ablauf" class="ablauf wf-section">
+    <div class="sectionbar-stickytainer">
+      <div class="sectionbar">
+        <div class="sectionbar-inner">
+          <div class="sectionbar-current">Ablauf</div>
+          <div class="sectionbar-counterbox">
+            <div class="sectionbar-counter current-c">05</div>
+            <div class="sectionbar-counter">  / 08</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ablauf-spacer"></div>
+    <div class="ablauf-balls-box">
+      <div class="ablauf-balls-stickytainer">
+        <div class="ablauf-bg-balls-box">
+          <div class="ablauf-bg-balls-mask">
+            <div class="ablauf-bg-ball bgball1"></div>
+            <div class="ablauf-bg-ball bgball2"></div>
+            <div class="ablauf-bg-ball bgball3"></div>
+            <div class="ablauf-bg-ball bgball4"></div>
+          </div>
+        </div>
+        <div class="ablauf-rt-positioner">
+          <div data-w-id="68a87bea-e089-f395-bb37-0824dde4da04" class="ablauf-rt-box">
+            <h2 class="runningtxt1 pb-rt">Ablauf Ablauf Ablauf Ablauf </h2>
+            <h2 class="runningtxt2 pb-rt">Ablauf Ablauf Ablauf Ablauf </h2>
+          </div>
+        </div>
+        <div class="ablauf-balls-animtroller">
+          <div class="ablauf-balls-animspacer"></div>
+          <div data-w-id="0702bb56-0c87-248e-accf-2b61af49f11a" class="ablauf-balls-animtrigger"></div>
+          <div class="ablauf-balls-animspacer"></div>
+        </div>
+        <div class="ablauf-ball one">
+          <div class="ablauf-balls-outer-mask">
+            <div class="ablauf-balls-mask bll1">
+              <div class="ablauf-ball-inner greeny">
+                <div class="ablauf-ball-counter-box">
+                  <div class="ablauf-ball-step">SCHRITT</div>
+                  <div class="ablauf-ball-counter darky">01</div>
+                </div>
+                <div class="ablauf-ball-txt1">Persönliches <br />Befundgespräch <br />in der Praxis.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ablauf-ball two">
+          <div class="ablauf-balls-outer-mask">
+            <div class="ablauf-balls-mask bll2">
+              <div class="ablauf-ball-inner">
+                <div class="ablauf-ball-counter-box">
+                  <div class="ablauf-ball-step">SCHRITT</div>
+                  <div class="ablauf-ball-counter">02</div>
+                </div>
+                <div class="ablauf-ball-txt2">Begutachtung vorhandener ärztlicher Befunde.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ablauf-ball three">
+          <div class="ablauf-balls-outer-mask">
+            <div class="ablauf-balls-mask bll3">
+              <div class="ablauf-ball-inner greeny">
+                <div class="ablauf-ball-counter-box">
+                  <div class="ablauf-ball-step">SCHRITT</div>
+                  <div class="ablauf-ball-counter darky">03</div>
+                </div>
+                <div class="ablauf-ball-txt3">Genaue Analyse und Statuserhebung.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ablauf-ball four">
+          <div class="ablauf-balls-outer-mask">
+            <div class="ablauf-balls-mask bll4">
+              <div class="ablauf-ball-inner">
+                <div class="ablauf-ball-counter-box">
+                  <div class="ablauf-ball-step">SCHRITT</div>
+                  <div class="ablauf-ball-counter">04</div>
+                </div>
+                <div class="ablauf-ball-txt4">Definition Ihres individuellen Therapieziels.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ablauf-info-box"><img src="assets/imgs/618c4bb0046604ee24347696_minironni.jpg" loading="lazy"
+        alt="Ronald Scharinger" class="ablauf-info-img" />
+      <div class="ablauf-info-name-box">
+        <div class="ablauf-info-name">RONALD <br />SCHARINGER, <br />MSc</div>
+        <div class="ablauf-info-role">Osteopath<br />Physiotherapeut<br /></div>
+      </div>
+      <div class="ablauf-info-txt">&quot;Durch diese 4 Schritte kann eine optimale Auswahl der Therapiemaßnahmen
+        getroffen und eine gute Zusammenarbeit gewährleistet werden.&quot;</div>
     </div>
   </section>
   <div id="linebreaker" class="linebreaker wf-section">
@@ -488,8 +639,7 @@
     <div class="indi-track">
       <div class="indi-camera">
         <div class="indi-hl-box">
-          <h2 id="indi-split" class="headline-mega indi slide-up splittext">Indikationen,</h2>
-          <div class="indi-subhl">oder wobei wir helfen:</div>
+          <h2 id="indi-split" class="headline-mega indi slide-up splittext">PROJECTS</h2>
         </div>
         <div id="indi-box" class="indi-frame-box">
           <div class="indi-frame w-dyn-list">
@@ -699,25 +849,25 @@
     <div class="gallery-col w-dyn-list">
       <div id="gallery-list" role="list" class="gallery-list w-dyn-items">
         <div role="listitem" class="gallery-item w-dyn-item"><img
-            src="assets/imgs/618c1ead4e657f4e584c481d_gallery1_1764_spg.jpg"
-            loading="lazy" alt="physioasten gallery" class="gallery-pic" /></div>
+            src="assets/imgs/618c1ead4e657f4e584c481d_gallery1_1764_spg.jpg" loading="lazy" alt="physioasten gallery"
+            class="gallery-pic" /></div>
         <div role="listitem" class="gallery-item w-dyn-item"><img
-            src="assets/imgs/618c24f0d884de4d3c618d42_gallery2_2_1764_spg.jpg"
-            loading="lazy" alt="physioasten gallery" class="gallery-pic" /></div>
+            src="assets/imgs/618c24f0d884de4d3c618d42_gallery2_2_1764_spg.jpg" loading="lazy" alt="physioasten gallery"
+            class="gallery-pic" /></div>
         <div role="listitem" class="gallery-item w-dyn-item"><img
-            src="assets/imgs/618c1db50d893845b81eda4e_gallery3_1764_spg.jpg"
-            loading="lazy" alt="physioasten gallery" class="gallery-pic" /></div>
+            src="assets/imgs/618c1db50d893845b81eda4e_gallery3_1764_spg.jpg" loading="lazy" alt="physioasten gallery"
+            class="gallery-pic" /></div>
         <div role="listitem" class="gallery-item w-dyn-item"><img
-            src="assets/imgs/618c1fb39d4a403301f5b212_gallery4_1764_spg.jpg"
-            loading="lazy" alt="physioasten gallery" class="gallery-pic" /></div>
+            src="assets/imgs/618c1fb39d4a403301f5b212_gallery4_1764_spg.jpg" loading="lazy" alt="physioasten gallery"
+            class="gallery-pic" /></div>
         <div role="listitem" class="gallery-item w-dyn-item"><img
-            src="assets/imgs/618c205dffc3f35183b69ba0_gallery5_2_1764_spg.jpg"
-            loading="lazy" alt="physioasten gallery" class="gallery-pic" /></div>
+            src="assets/imgs/618c205dffc3f35183b69ba0_gallery5_2_1764_spg.jpg" loading="lazy" alt="physioasten gallery"
+            class="gallery-pic" /></div>
       </div>
     </div>
     <div data-w-id="d6b08b81-e6ab-2ad7-3519-fc9648cbacb3" class="picbreaker-box"><img
-        src="assets/imgs/618c139198f8f5f6b5081c14_gallery6_2432_spg.jpg"
-        loading="lazy" alt="PhysioAsten" class="picbreaker-pic" />
+        src="assets/imgs/618c139198f8f5f6b5081c14_gallery6_2432_spg.jpg" loading="lazy" alt="PhysioAsten"
+        class="picbreaker-pic" />
       <div class="picbreaker-text-box">
         <div data-w-id="d6b08b81-e6ab-2ad7-3519-fc9648cbacb5" class="picbreaker-rt-box">
           <h2 class="runningtxt1 pb-rt">2 Standorte, 8 Hände. </h2>
@@ -726,6 +876,127 @@
         <div class="picbreaker-sub-heading-box">
           <h1 class="picbreaker-sub-heading">Osteopathie und Physiotherapie <br /></h1>
           <h1 class="picbreaker-sub-heading">bei physio asten &amp; nnk</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="therapien" class="therapien wf-section">
+    <div class="sectionbar-stickytainer">
+      <div class="sectionbar">
+        <div class="sectionbar-inner">
+          <div class="sectionbar-current">Therapien</div>
+          <div class="sectionbar-counterbox">
+            <div class="sectionbar-counter current-c">04</div>
+            <div class="sectionbar-counter">  / 08</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="therapien-hl-box">
+      <h2 id="thera-split" class="headline-mega therapien slide-up splittext hll1">Die</h2>
+      <h2 class="headline-mega therapien slide-up splittext">Therapien:</h2>
+    </div>
+    <div class="therapien-card-wrapper">
+      <div class="therapien-card-list">
+        <div class="therapien-card card1">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Ostheopathie</h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Ganzheitliche Methode zur Wiederherstellung der Mobilität des Körpers</div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">01</div>
+          </div>
+        </div>
+        <div class="therapien-card card2">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Manuelle <br />Therapie<br /></h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Behandlung von Funktionsstörungen des Bewegungsapparats</div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">02</div>
+          </div>
+        </div>
+        <div class="therapien-card card3">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Faszien-<br />behandlung</h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Gezielte Behandlungsform für das bindegewebige Fasziensystem</div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">03</div>
+          </div>
+        </div>
+        <div class="therapien-card card4">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Weichteil-<br />techniken</h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Dehn- und Entspannungstechniken im Bereich der Muskulatur</div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">04</div>
+          </div>
+        </div>
+        <div class="therapien-card card5">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Medizinische Trainingstherapie</h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Gezieltes körperliches Rehabilitations- &amp; Präventionstraining </div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">05</div>
+          </div>
+        </div>
+        <div class="therapien-card card6">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Heilgymnastik<br /></h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Physiotherapeutische Bewegungstherapie</div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">06</div>
+          </div>
+        </div>
+        <div class="therapien-card card7">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Cranio Sacrale Therapie</h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Sanfte Griffe zur Aktivierung der Selbstheilungskräfte des Körpers</div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">07</div>
+          </div>
+        </div>
+        <div class="therapien-card card8">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Viszerale <br />Therapie<br /></h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Behandlung bei Störungen des Bewegungsapparates in Verbindung mit dem
+              Organsystem</div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">08</div>
+          </div>
+        </div>
+        <div class="therapien-card card9">
+          <div class="therapien-card-info">
+            <h2 class="therapien-card-hl">Taping<br /></h2>
+            <div class="therapien-card-line"></div>
+            <div class="therapien-card-txt">Stützverbände und Kinesio Taping</div>
+          </div>
+          <div class="therapien-card-counter-box">
+            <div class="therapien-ball"></div>
+            <div class="therapien-card-nr">09</div>
+          </div>
         </div>
       </div>
     </div>
@@ -939,8 +1210,7 @@
         </div>
       </div>
     </div>
-    <div class="ablauf-info-box"><img
-        src="assets/imgs/618c4bb0046604ee24347696_minironni.jpg" loading="lazy"
+    <div class="ablauf-info-box"><img src="assets/imgs/618c4bb0046604ee24347696_minironni.jpg" loading="lazy"
         alt="Ronald Scharinger" class="ablauf-info-img" />
       <div class="ablauf-info-name-box">
         <div class="ablauf-info-name">RONALD <br />SCHARINGER, <br />MSc</div>
@@ -975,10 +1245,9 @@
           <div role="list" class="team-collection-list w-dyn-items">
             <div data-w-id="8b699d81-89e7-5315-3a44-bc230dc2065d" role="listitem" class="team-member w-dyn-item">
               <div data-w-id="8b699d81-89e7-5315-3a44-bc230dc2065e" class="team-member-box">
-                <div class="team-pic-box"><img
-                    src="assets/imgs/618c4963f09b3409e1fab530_ronni.jpg"
-                    loading="lazy" data-w-id="8b699d81-89e7-5315-3a44-bc230dc20660" alt="Ronald Scharinger, MSc"
-                    class="team-pic" /></div>
+                <div class="team-pic-box"><img src="assets/imgs/618c4963f09b3409e1fab530_ronni.jpg" loading="lazy"
+                    data-w-id="8b699d81-89e7-5315-3a44-bc230dc20660" alt="Ronald Scharinger, MSc" class="team-pic" />
+                </div>
                 <div class="team-member-info-box">
                   <div data-w-id="c1a20463-62c9-2c6f-5cf8-a238265d53be" class="team-member-hov-bg"></div>
                   <div class="team-info">
@@ -1002,8 +1271,7 @@
               <div
                 style="display:none;-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                 class="team-overlay">
-                <div class="team-overlay-scrolltainer"><img
-                    src="assets/imgs/618c496bf09b34db17fab541_ronni2.jpg"
+                <div class="team-overlay-scrolltainer"><img src="assets/imgs/618c496bf09b34db17fab541_ronni2.jpg"
                     loading="eager" alt="Ronald Scharinger, MSc" sizes="100vw"
                     srcset="assets/imgs/618c496bf09b34db17fab541_ronni2-p-800.jpeg 800w, assets/imgs/618c496bf09b34db17fab541_ronni2-p-1080.jpeg 1080w, assets/imgs/618c496bf09b34db17fab541_ronni2.jpg 1336w"
                     class="team-overlay-pic" />
@@ -1094,10 +1362,8 @@
             </div>
             <div data-w-id="8b699d81-89e7-5315-3a44-bc230dc2065d" role="listitem" class="team-member w-dyn-item">
               <div data-w-id="8b699d81-89e7-5315-3a44-bc230dc2065e" class="team-member-box">
-                <div class="team-pic-box"><img
-                    src="assets/imgs/618c499c7f656a25d7c7322c_stefan.jpg"
-                    loading="lazy" data-w-id="8b699d81-89e7-5315-3a44-bc230dc20660" alt="Stefan Hofstödter"
-                    class="team-pic" /></div>
+                <div class="team-pic-box"><img src="assets/imgs/618c499c7f656a25d7c7322c_stefan.jpg" loading="lazy"
+                    data-w-id="8b699d81-89e7-5315-3a44-bc230dc20660" alt="Stefan Hofstödter" class="team-pic" /></div>
                 <div class="team-member-info-box">
                   <div data-w-id="c1a20463-62c9-2c6f-5cf8-a238265d53be" class="team-member-hov-bg"></div>
                   <div class="team-info">
@@ -1121,8 +1387,7 @@
               <div
                 style="display:none;-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                 class="team-overlay">
-                <div class="team-overlay-scrolltainer"><img
-                    src="assets/imgs/618c49a0078f578555b6b207_stefan2.jpg"
+                <div class="team-overlay-scrolltainer"><img src="assets/imgs/618c49a0078f578555b6b207_stefan2.jpg"
                     loading="eager" alt="Stefan Hofstödter" sizes="100vw"
                     srcset="assets/imgs/618c49a0078f578555b6b207_stefan2-p-800.jpeg 800w, assets/imgs/618c49a0078f578555b6b207_stefan2-p-1080.jpeg 1080w, assets/imgs/618c49a0078f578555b6b207_stefan2.jpg 1336w"
                     class="team-overlay-pic" />
@@ -1184,10 +1449,8 @@
             </div>
             <div data-w-id="8b699d81-89e7-5315-3a44-bc230dc2065d" role="listitem" class="team-member w-dyn-item">
               <div data-w-id="8b699d81-89e7-5315-3a44-bc230dc2065e" class="team-member-box">
-                <div class="team-pic-box"><img
-                    src="assets/imgs/618c49a8ec95302f909ec58c_michael.jpg"
-                    loading="lazy" data-w-id="8b699d81-89e7-5315-3a44-bc230dc20660" alt="Michael Klamuth"
-                    class="team-pic" /></div>
+                <div class="team-pic-box"><img src="assets/imgs/618c49a8ec95302f909ec58c_michael.jpg" loading="lazy"
+                    data-w-id="8b699d81-89e7-5315-3a44-bc230dc20660" alt="Michael Klamuth" class="team-pic" /></div>
                 <div class="team-member-info-box">
                   <div data-w-id="c1a20463-62c9-2c6f-5cf8-a238265d53be" class="team-member-hov-bg"></div>
                   <div class="team-info">
@@ -1211,8 +1474,7 @@
               <div
                 style="display:none;-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                 class="team-overlay">
-                <div class="team-overlay-scrolltainer"><img
-                    src="assets/imgs/618c49b1ecff6ef79e007c3b_michael2.jpg"
+                <div class="team-overlay-scrolltainer"><img src="assets/imgs/618c49b1ecff6ef79e007c3b_michael2.jpg"
                     loading="eager" alt="Michael Klamuth" sizes="100vw"
                     srcset="assets/imgs/618c49b1ecff6ef79e007c3b_michael2-p-800.jpeg 800w, assets/imgs/618c49b1ecff6ef79e007c3b_michael2-p-1080.jpeg 1080w, assets/imgs/618c49b1ecff6ef79e007c3b_michael2.jpg 1336w"
                     class="team-overlay-pic" />
@@ -1284,10 +1546,8 @@
             </div>
             <div data-w-id="8b699d81-89e7-5315-3a44-bc230dc2065d" role="listitem" class="team-member w-dyn-item">
               <div data-w-id="8b699d81-89e7-5315-3a44-bc230dc2065e" class="team-member-box">
-                <div class="team-pic-box"><img
-                    src="assets/imgs/618c497449ffb5530350a681_anna.jpg"
-                    loading="lazy" data-w-id="8b699d81-89e7-5315-3a44-bc230dc20660" alt="Anna Wunder, BSc"
-                    class="team-pic" /></div>
+                <div class="team-pic-box"><img src="assets/imgs/618c497449ffb5530350a681_anna.jpg" loading="lazy"
+                    data-w-id="8b699d81-89e7-5315-3a44-bc230dc20660" alt="Anna Wunder, BSc" class="team-pic" /></div>
                 <div class="team-member-info-box">
                   <div data-w-id="c1a20463-62c9-2c6f-5cf8-a238265d53be" class="team-member-hov-bg"></div>
                   <div class="team-info">
@@ -1311,8 +1571,7 @@
               <div
                 style="display:none;-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                 class="team-overlay">
-                <div class="team-overlay-scrolltainer"><img
-                    src="assets/imgs/618c497773c5ccb02d7f5df0_anna2.jpg"
+                <div class="team-overlay-scrolltainer"><img src="assets/imgs/618c497773c5ccb02d7f5df0_anna2.jpg"
                     loading="eager" alt="Anna Wunder, BSc" sizes="100vw"
                     srcset="assets/imgs/618c497773c5ccb02d7f5df0_anna2-p-800.jpeg 800w, assets/imgs/618c497773c5ccb02d7f5df0_anna2-p-1080.jpeg 1080w, assets/imgs/618c497773c5ccb02d7f5df0_anna2.jpg 1336w"
                     class="team-overlay-pic" />
@@ -1534,8 +1793,7 @@
     <div data-w-id="ace29767-a1e8-6251-5f8e-d2d6f44033f3" class="standorte-box">
       <div class="standort-box st-bx1">
         <div class="standort-box-vertline"></div>
-        <div class="standorte-img-box"><img
-            src="assets/imgs/618c216799b9865631308f8e_asten2_1650_spg.jpg"
+        <div class="standorte-img-box"><img src="assets/imgs/618c216799b9865631308f8e_asten2_1650_spg.jpg"
             loading="lazy" alt="Praxis Asten" class="standort-img" />
           <div data-w-id="5d1a0057-0b4c-2a29-a9a4-f3755512b0d2" class="standorte-rt-box">
             <h2 class="runningtxt1 st-rt">Asten Asten Asten </h2>
@@ -1543,8 +1801,7 @@
           </div>
         </div>
         <div class="standort-txt-box">
-          <div class="standort-txt-box-inner"><img
-              src="assets/imgs/617bcc6c38e28a50a8fd8b54_physio_asten_logo_rgb.svg"
+          <div class="standort-txt-box-inner"><img src="assets/imgs/617bcc6c38e28a50a8fd8b54_physio_asten_logo_rgb.svg"
               loading="lazy" alt="Logo Asten" class="standort-logo" />
             <div class="standort-descr">Physiotherapie   |   Osteopathie<br /></div>
           </div>
@@ -1563,17 +1820,15 @@
           target="_blank" class="gmaps-btn w-button">OPEN IN GOOGLE MAPS</a>
       </div>
       <div class="standort-box st-bx2">
-        <div class="standorte-img-box"><img
-            src="assets/imgs/618c181bbb70cd3d80cb98fa_nnk_1650_spg.jpg"
-            loading="lazy" alt="Praxis Niederneukirchen" class="standort-img" />
+        <div class="standorte-img-box"><img src="assets/imgs/618c181bbb70cd3d80cb98fa_nnk_1650_spg.jpg" loading="lazy"
+            alt="Praxis Niederneukirchen" class="standort-img" />
           <div data-w-id="005b7217-edb9-769a-ee87-170881a37165" class="standorte-rt-box">
             <h2 class="runningtxt1 st-rt">Nnk Nnk Nnk Nnk </h2>
             <h2 class="runningtxt2 st-rt">Nnk Nnk Nnk Nnk </h2>
           </div>
         </div>
         <div class="standort-txt-box">
-          <div class="standort-txt-box-inner"><img
-              src="assets/imgs/617bcc782f635765d3d21ae0_physionnk_rgb_rz.svg"
+          <div class="standort-txt-box-inner"><img src="assets/imgs/617bcc782f635765d3d21ae0_physionnk_rgb_rz.svg"
               loading="lazy" alt="Logo Nnk" class="standort-logo" />
             <div class="standort-descr">Physiotherapie   |   Osteopathie<br /></div>
           </div>
@@ -1617,17 +1872,17 @@
         <div class="loading-txt-mask">
           <div data-w-id="740b6dee-4a0d-4e63-d88a-f32460986979"
             style="-webkit-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-            class="loading-text txtl-1">Willkommen</div>
+            class="loading-text txtl-1">Learning</div>
         </div>
         <div class="loading-txt-mask">
           <div data-w-id="fa94f9b0-0775-5298-8ffb-50c87183ebb7"
             style="-webkit-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-            class="loading-text txtl-2">bei</div>
+            class="loading-text txtl-2">for</div>
         </div>
         <div class="loading-txt-mask">
           <div data-w-id="5f1cbcd1-5905-eeb6-d628-bd6f4cf6ef9e"
             style="-webkit-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 105%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-            class="loading-text greeno">physioasten/nnk</div>
+            class="loading-text greeno">life.k</div>
         </div>
       </div>
     </div>
@@ -1645,8 +1900,7 @@
       <div class="l-line ll7"></div>
     </div>
   </div>
-  <div class="mobile-lc-blocker"><img
-      src="assets/imgs/6183b11f374f335ed419b518_rotate.svg" loading="lazy"
+  <div class="mobile-lc-blocker"><img src="assets/imgs/6183b11f374f335ed419b518_rotate.svg" loading="lazy"
       alt="rotate your device" class="rotate-pic" />
     <div class="lc-blocker-txt">Bitte drehen Sie ihr Gerät.</div>
   </div>
@@ -1940,6 +2194,24 @@
 
     });
   </script>
+ <script>
+$(function() {
+  var header = $(".c-header");
+  
+
+  $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+      if (scroll >= 50) {
+          header.addClass("scrolled");
+          
+      } else {
+          header.removeClass("scrolled");
+          
+      }
+  });
+
+});
+</script>
 </body>
 
 </html>
